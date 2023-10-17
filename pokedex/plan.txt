@@ -1,0 +1,16 @@
+X Darstellen der Pokemon, 20 Stück beim Laden der Seite. 
+X Ladescreen, bis alle 20 geladen sind
+X Hintergrundfarbe der Karte je nach Status-Typ
+X Button, um die nächsten 20 Pokemon zu Laden
+X Suchleiste, um Pokemon nach Namen oder ID zu suchen
+X Pop-Up Fenster Karte mit About, Base Stats, Evolution, Moves
+? Pop-Up Fenster Effekt Karte von rechts in die Mitte
+X Header search bar fixed zum bildschirm
+X Hover-Effekt fade in- fade out
+X Fix description, 
+X fix evolution
+X Fixed moves
+X Popup background blur, no scroll
+X Scroll to top
+Search bar - search for any Pokemon
+Responsive

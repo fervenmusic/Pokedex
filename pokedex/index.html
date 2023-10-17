@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/node_modules/nes.css/css/nes.min.css">
+    <link rel="icon" href="icons/favicon.ico" type="image/icon type">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet">
+</head>
+
+<body onload="loadPokemon()">
+
+    <div id="loadingScreen">
+        <div class="loading-screen-container">
+            <i class="nes-pokeball rotating"></i>
+            <h2>Loading...</h2>
+        </div>
+    </div>
+
+    <header>
+        <div class="headerclass">
+            <div class="header-icons">
+                <i class="nes-ash"></i>
+                <h1>Pokémon!</h1>
+            </div>
+            <div class="search-bar">
+                <div class="nes-field nes-input">
+                    <div>
+                        <img src="icons/search.svg">
+                    </div>
+                    <input type="text" id="name_field" class="nes-input">
+                    <div>
+                        <i class="nes-logo"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="nes-balloon from-right">
+                    <p>Hi!</p>
+                </div>
+                <div class="header-icons">
+                    <i class="nes-octocat animate"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div>
+        <div class="main-container-start" id="main-cards">
+
+        </div>
+    </div>
+    <div class="popup hide" id="popup">
+        <div class="popup-background"></div> <!-- This is the blurred background -->
+        <div class="main-container hide" id="main-container">
+            <div id="pokedex" class="disable-scrollbars">
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="load-pokemon-container">
+        <i class="nes-pokeball nes-pointer" onclick="loadMorePokemon()" id="load-pokeball"></i>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <h3>by Kevin Horlitz</h3>
+            <span>using PokeAPI & NES.css</span>
+        </div>
+    </footer>
+
+    <div>
+        <img src="icons/arrow-up.svg" class="arrow nes-pointer" onclick="topFunction()" id="arrowButton">
+    </div>
+
+    <script src="script.js"></script>
+    <script src="generatehtml.js"></script>
+</body>
+
+</html>
